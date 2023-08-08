@@ -1,0 +1,16 @@
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  body {
+    margin: 0;
+    padding-top: 145px;
+    padding-left: 270px;
+    padding-right: 30px;
+    background-color: rgba(194, 194, 194, 0.103);
+    height: 1200px;
+    font-family: Roboto, Arial;
+    background-color:#1d1d1d;
+  }
+
+/* This style below will be ... */

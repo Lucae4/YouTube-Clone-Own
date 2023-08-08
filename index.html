@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Comment-->
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <style></style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Suchen" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search-icon.svg" />
+          <div class="tooltip">Suchen</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" />
+          <div class="tooltip">Sprachsuche verwenden</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" />
+          <div class="tooltip">Hochladen</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg" />
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Benachrichtigungen</div>
+        </div>
+        <div class="current-user">
+          <div class="current-user-container">
+            <img
+              class="current-user-picture"
+              src="channel-pictures/my-channel.jpeg"
+            />
+            <div class="user-interface">
+              <div class="user-mail-profile">
+                <img src="channel-pictures/my-channel.jpeg" />
+                <div class="user-email-adresse">TEXTEXTETXTEXT</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="sidebar">
+      <div class="sidebar-one">
+        <div class="sidebar-link">
+          <img src="icons/home.svg" />
+          <div>Startseite</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/explore.svg" />
+          <div>Erkunden</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/subscriptions.svg" />
+          <div>Abos</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/originals.svg" />
+          <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/youtube-music.svg" />
+          <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/library.svg" />
+          <div>Bibliothek</div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=D8X0WV-asv4&ab_channel=SteveLacyVEVO"
+              ><img class="thumbnail" src="thumbnails/thumbnail-1.webp"
+            /></a>
+            <div class="video-time">3:35</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@stevelacy119" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-1.jpeg"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-1.jpeg"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name"></div>
+                    <div class="channel-tooltip-stats"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=D8X0WV-asv4&ab_channel=SteveLacyVEVO"
+                  >Steve Lacy - Helmet &lpar;Official Video&rpar;</a
+                >
+              </p>
+              <a
+                class="author-link"
+                href="https://www.youtube.com/@stevelacy119"
+                target="_blank"
+                ><p class="video-author">Steve Lacy</p></a
+              >
+              <p class="video-stats">821&period;482 &middot; vor 2 Wochen</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div>
+              <a
+                href="https://www.youtube.com/watch?v=-YXniR2LyfY&ab_channel=anikixdd"
+                ><img class="thumbnail" src="thumbnails/thumbnail-2.webp"
+              /></a>
+              <div class="video-time">0:28</div>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@anikixdd" target="_blank">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-2.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=-YXniR2LyfY&ab_channel=anikixdd"
+                  >World needs bad man &verbar; True Detective edit</a
+                >
+              </p>
+              <a
+                class="author-link"
+                href="https://www.youtube.com/@anikixdd"
+                target="_blank"
+                ><p class="video-author">anikixdd</p></a
+              >
+              <p class="video-stats">
+                127&period;214 Aufrufe &middot; vor 2 Monaten
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=uzFyx1glMyA&ab_channel=POCLANOS"
+              ><img class="thumbnail" src="thumbnails/thumbnail-3.webp"
+            /></a>
+            <div class="video-time">3:46</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/poclanos" target="_blank">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-3.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=uzFyx1glMyA&ab_channel=POCLANOS"
+                  >&lsqb;Official Audio&rsqb; wave to earth - light</a
+                >
+              </p>
+              <a
+                class="author-link"
+                href="https://www.youtube.com/poclanos"
+                target="_blank"
+                ><p class="video-author">POCLANOS</p></a
+              >
+              <p class="video-stats">
+                539&period;909 Aufrufe &middot; vor 3 Jahren
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div>
+              <a
+                href="https://www.youtube.com/watch?v=34Na4j8AVgA&ab_channel=TheWeekndVEVO"
+                ><img class="thumbnail" src="thumbnails/thumbnail-4.webp"
+              /></a>
+              <div class="video-time">4:09</div>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ"
+                target="_blank"
+              >
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-4.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=34Na4j8AVgA&ab_channel=TheWeekndVEVO"
+                  >The Weeknd - Save Your Tears &lpar;Official Video&rpar;</a
+                >
+              </p>
+              <a
+                class="author-link"
+                href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ"
+                target="_blank"
+                ><p class="video-author">The Weeknd</p></a
+              >
+              <p class="video-stats">
+                1&comma;2 Mrd&period; Aufrufe &middot; vor 2 Jahren
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=qbsDGg0dIX0&ab_channel=vibewithloir"
+              ><img class="thumbnail" src="thumbnails/thumbnail-5.webp"
+            /></a>
+            <div class="video-time">33:21</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@vibewithloir_/" target="_blank">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-5.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=qbsDGg0dIX0&ab_channel=vibewithloir"
+                  >𝐍𝐞𝐰𝐉𝐞𝐚𝐧𝐬 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 뉴진스 감성의 음악 | y2k dreamcore |
+                  PinkPantheress, HUS</a
+                >
+              </p>
+              <a
+                class="author-link"
+                href="https://www.youtube.com/@vibewithloir_/"
+                target="_blank"
+                ><p class="video-author">vibe with loir</p></a
+              >
+              <p class="video-stats">577 Aufrufe &middot; vor 13 Tagen</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div>
+              <a
+                href="https://www.youtube.com/watch?v=4SeE6rJrnfc&ab_channel=beabadoobeeVEVO"
+                ><img class="thumbnail" src="thumbnails/thumbnail-6.webp"
+              /></a>
+              <div class="video-time">3:24</div>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/beabadoobee/" target="_blank">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-6.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=4SeE6rJrnfc&ab_channel=beabadoobeeVEVO"
+                  >beabadoobee - the way things go</a
+                >
+              </p>
+              <a
+                class="author-link"
+                href="https://www.youtube.com/beabadoobee/"
+                target="_blank"
+                ><p class="video-author">beabadoobee</p></a
+              >
+              <p class="video-stats">
+                1&comma;9 Mio&period; Aufrufe &middot; vor 2 Wochen
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div>
+              <a
+                href="https://www.youtube.com/watch?v=pFptt7Cargc&ab_channel=tameimpalaVEVO"
+                ><img class="thumbnail" src="thumbnails/thumbnail-7.webp"
+              /></a>
+              <div class="video-time">4:17</div>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/channel/UCdI8MAC5HoPJSJ4zrgDDI-Q"
+                target="_blank"
+              >
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-7.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=pFptt7Cargc&ab_channel=tameimpalaVEVO"
+                  >Tame Impala - Let It Happen &lpar;Official Video&rpar;</a
+                >
+              </p>
+              <a
+                class="author-link"
+                href="https://www.youtube.com/channel/UCdI8MAC5HoPJSJ4zrgDDI-Q"
+                target="_blank"
+                ><p class="video-author">Tame Impala</p></a
+              >
+              <p class="video-stats">
+                106 Mio&period; Aufrufe &middot; vor 7 Jahren
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div>
+              <a
+                href="https://www.youtube.com/watch?v=1gjpuBId3wg&ab_channel=Cyberpunk2077"
+                ><img class="thumbnail" src="thumbnails/thumbnail-8.webp"
+              /></a>
+              <div class="video-time">1:33</div>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@CyberpunkGame" target="_blank">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-8.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=1gjpuBId3wg&ab_channel=Cyberpunk2077"
+                >
+                  Cyberpunk: Edgerunners — Opening Credits | Netflix</a
+                >
+              </p>
+
+              <a
+                class="author-link"
+                href="https://www.youtube.com/@CyberpunkGame"
+                target="_blank"
+                ><p class="video-author">Cyberpunk 2077</p></a
+              >
+
+              <p class="video-stats">
+                1&comma;4 Mio&period; views &middot; vor 1 Jahr
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div>
+              <a
+                href="https://www.youtube.com/watch?v=tKvEnZSoqas&ab_channel=MoonDeity"
+                ><img class="thumbnail" src="thumbnails/thumbnail-9.webp"
+              /></a>
+              <div class="video-time">2:19</div>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@moondeity4229" target="_blank">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-9.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=tKvEnZSoqas&ab_channel=MoonDeity"
+                >
+                  WAKE UP!</a
+                >
+              </p>
+
+              <a
+                class="author-link"
+                href="https://www.youtube.com/@moondeity4229"
+                target="_blank"
+                ><p class="video-author">MoonDeity</p></a
+              >
+
+              <p class="video-stats">
+                34 Mio&period; Aufrufe &middot; vor 1 Jahr
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div>
+              <a
+                href="https://www.youtube.com/watch?v=Ohv_543pIA0&ab_channel=EyeSea"
+                ><img class="thumbnail" src="thumbnails/thumbnail-10.webp"
+              /></a>
+              <div class="video-time">2:45</div>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Eyeamhear" target="_blank">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-10.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=Ohv_543pIA0&ab_channel=EyeSea"
+                  >Tokyo Tea Room - If You Love Her</a
+                >
+              </p>
+              <a
+                class="author-link"
+                href="https://www.youtube.com/@Eyeamhear"
+                target="_blank"
+                ><p class="video-author">Eye Sea</p></a
+              >
+              <p class="video-stats">
+                492&period;837 Aufrufe &middot; vor 6 Monaten
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div>
+              <a
+                href="https://www.youtube.com/watch?v=3QWeJci0-uk&t=1s&ab_channel=saluuuuu.u_u.t"
+                ><img class="thumbnail" src="thumbnails/thumbnail-11.webp"
+              /></a>
+              <div class="video-time">59:35</div>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/@saluuuuu.u_u.t/"
+                target="_blank"
+              >
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-11.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=3QWeJci0-uk&t=1s&ab_channel=saluuuuu.u_u.t"
+                  >BOOM BOOM MIX VOL&period;8</a
+                >
+              </p>
+              <a
+                class="author-link"
+                href="https://www.youtube.com/@saluuuuu.u_u.t/"
+                target="_blank"
+                ><p class="video-author">saluuuuu.u_u.t</p>
+              </a>
+
+              <p class="video-stats">
+                34&period;779 Aufrufe &middot; vor 2 Monaten
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div>
+              <a
+                href="https://www.youtube.com/watch?v=Z_x7Vs6lPPc&ab_channel=eto"
+                ><img class="thumbnail" src="thumbnails/thumbnail-12.webp"
+              /></a>
+              <div class="video-time">1:46:05</div>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@ilyeto/" target="_blank">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-12.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=Z_x7Vs6lPPc&ab_channel=eto"
+                  target="_blank"
+                  >☆ ETO 10K SUBS RAVE MIX ☆</a
+                >
+              </p>
+              <a
+                class="author-link"
+                href="https://www.youtube.com/@ilyeto/"
+                target="_blank"
+                ><p class="video-author">eto</p></a
+              >
+              <p class="video-stats">
+                145&period;137 Aufrufe &middot; vor 11 Monaten
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
